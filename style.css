@@ -1,0 +1,77 @@
+header{
+    background-color: #354470;
+    height: 90px;
+    padding: 20px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1140px;
+    background-color: #BBC8F2;
+}
+
+div.principal{
+    height: 100%;
+    background-color: #708FF0;   
+    padding: 30px;    
+}
+
+h1{
+    font-family: Verdana;
+    color: white;
+}
+
+
+h2{
+    float: left;
+    margin: 0px;
+    font-family: Verdana;
+}
+
+
+div.tituloRegistro{
+    height: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+p.obligatorio{
+    float: right;
+    margin-top: 9px;
+    font-family: Verdana;
+
+}
+
+span.obligatorio{
+    color: red;
+}
+
+div.registro form{
+    padding: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+label.labelnormal{
+    margin-top: 10px;
+    font-family: Verdana;
+}
+
+input.inputnormal{
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+input.inputgrande{
+    width: 525px;
+    margin-bottom: 10px;
+}
+
+select.sexo{
+    width: 170px;
+}
+
+button.enviar{
+    margin-top: 20px;
+}

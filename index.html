@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="CreacionUsuariosJS.js"></script>
+        <title>TRABAJO DE DESARROLLO</title>
+        <meta charset="UTF-8">
+        <meta lang="es">
+        <meta name="author" content="Joel Perez">
+        <meta name="description" content="Pagina para poder dar de alta usuarios">
+    </head>
+
+    <header>
+        <h1>Trabajo de desarrollo KosmetikOn</h1>
+    </header>
+
+    <body>
+        <div class="principal">   
+            <div class="registro">
+                <div class="tituloRegistro">
+                    <h2>Crear Usuario</h2>
+                    <p class="obligatorio">( Obligatorio <span class="obligatorio">*</span>)</p>
+                </div>
+                <form>
+                    <div class="usuarioContrasena">
+                        <label for="usuario" class="labelnormal">Usuario <span class="obligatorio">*</span></label> 
+                        <input type="text" id="usuario"  class="inputnormal"  placeholder="Nombre de Usuario">
+                        <label for="contrasena" class="labelnormal" >Contraseña <span class="obligatorio">*</span></label> 
+                        <input type="password"  id="contrasena" class="inputnormal" placeholder="Contraseña">
+                    </div>
+                    <label for="mail" class="labelnormal">Email <span class="obligatorio">*</span></label>             
+                    <br>
+                    <input type="email" id="mail"  class="inputgrande"  placeholder="ejemplo@gmail.com">
+                    <br>
+                    <label for="num" class="labelnormal">Numero de telefono <span class="obligatorio">*</span></label>
+                    <br>
+                    <input type="number" class="inputnormal" id="num" minlength="9" maxlength="9" placeholder="123456789">            
+                    <br>
+                    <label for="opcions" class="labelnormal">Genero</label>
+                    <br>
+                    <select name="sexo" id="opcions" class="sexo">
+                        <option value="No Especificado" selected>Prefiero no responder</option>
+                        <option value="Hombre" >Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                    <br>
+                    <button class="enviar" type="button" onclick="validarUsuarios()">Crear</button>
+                </form>
+
+                <div class="usuariosCreados">
+                    <span id="listaUsuarios"></span>
+                </div>
+
+            </div>     
+        </div> 
+    </body>
+
+    <footer>
+        
+    </footer>
+
+    
+
+    
+</html>
